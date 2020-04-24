@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.Manifest
 import android.content.pm.PackageManager
-import android.graphics.Camera
 import android.net.Uri
 import android.util.Log
 import android.widget.Button
