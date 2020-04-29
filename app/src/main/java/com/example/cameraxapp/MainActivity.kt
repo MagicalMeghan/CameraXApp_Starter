@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
     private var imageCapture: ImageCapture? = null
     private var imageAnalyzer: ImageAnalysis? = null
     private var camera: Camera? = null
-    private var lensFacing: Int = CameraSelector.LENS_FACING_BACK
 
     private lateinit var viewFinder: PreviewView
     private lateinit var outputDirectory: File
