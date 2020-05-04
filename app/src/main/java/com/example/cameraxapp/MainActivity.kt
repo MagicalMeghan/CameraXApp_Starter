@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        viewFinder = view_finder
 
         // Request camera permissions
         if (allPermissionsGranted()) {
@@ -46,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Setup the listener for take photo button
-        findViewById<Button>(R.id.camera_capture_button).setOnClickListener { takePhoto() }
+        camera_capture_button.setOnClickListener { takePhoto() }
 
         outputDirectory = getOutputDirectory()
 
