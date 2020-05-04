@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
     private var imageAnalyzer: ImageAnalysis? = null
     private var camera: Camera? = null
 
-    private lateinit var viewFinder: PreviewView
     private lateinit var outputDirectory: File
     private lateinit var cameraExecutor: ExecutorService
 
